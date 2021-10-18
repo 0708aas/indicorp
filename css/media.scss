@@ -1,0 +1,598 @@
+@media (max-width: 1200px) {
+  .hero {
+    max-width: 100%;
+
+    &__block {
+      width: 100%;
+      padding: 35px 18px;
+
+    }
+
+    .hero__block-blue {
+      padding: 35px 23px;
+    }
+
+    &__marketing-text {
+      font-size: 21px;
+    }
+  }
+
+
+  .hooli {
+
+    &__colum {
+      width: 962px;
+    }
+
+  }
+}
+
+.footer {
+  padding: 25px 45px;
+
+}
+
+.features {
+
+  &__img {
+    width: 19px;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .header {
+    &__list {
+      display: none;
+    }
+
+    &__content {
+      padding: 36px 42px;
+    }
+
+    &__li {
+      margin: 0 0 15px 0;
+    }
+
+    &__burger {
+      display: block;
+      background: none;
+      width: 100%;
+
+    }
+
+    &__burger-img {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: auto;
+    }
+
+
+  }
+  .mobile-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgray;
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+
+  .hero {
+    &__content {
+      padding: 184px 49px 0;
+    }
+
+
+    &__title {
+      font-size: 52px;
+      width: 470px;
+    }
+
+    &__block {
+      padding: 35px 9px;
+    }
+
+    &__marketing-text {
+      font-size: 16px;
+    }
+
+    &__width-market {
+      width: 200px;
+    }
+
+    &__market-width {
+      width: 164px;
+    }
+  }
+  .practice {
+
+    &__col-3 {
+      width: 50%;
+    }
+
+    &__block-heith {
+      margin: 0 auto 50px;
+    }
+
+    &__block {
+      margin: 0 auto;
+    }
+
+    &__block-with {
+
+      margin: 0 auto 100px;
+    }
+
+    &__block-heith {
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    &__title_text {
+      font-size: 22px;
+      width: 185px;
+    }
+
+    &__margin {
+      font-size: 17px;
+      line-height: 25px;
+    }
+
+    &__text_box {
+      line-height: 25px;
+      font-size: 17px;
+      text-align: initial;
+    }
+
+  }
+  .business {
+    &__row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__col-6 {
+      width: 100%;
+      padding: 0 64px;
+    }
+
+    &__overview-video {
+      margin: 0 auto;
+    }
+
+    &__img-text {
+      margin: 0 auto;
+    }
+
+    &__text-box {
+      margin: 0 auto;
+    }
+
+    &__title-video {
+      margin: 0 auto;
+    }
+
+    &__text-video {
+      margin: 0 auto;
+    }
+  }
+  .hooli {
+    &__colum {
+      width: 98%;
+      flex-wrap: wrap;
+      height: 180px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__title {
+      font-size: 24px;
+      text-align: center;
+      margin: 0 auto 15px;
+    }
+
+    &__button-input {
+      text-align: center;
+    }
+
+    &__input-button {
+      padding: 15px 20px 15px 20px;
+    }
+  }
+
+  .bacground {
+    background: none;
+  }
+
+
+  .why-choose {
+
+    &__col-3 {
+      width: 50%;
+
+    }
+
+    &__block {
+      margin: 0 auto 20px;
+    }
+  }
+
+
+  .touch {
+    &__col-3 {
+      width: 100%;
+    }
+
+    &__block_bg {
+      margin-top: 0;
+    }
+
+    &__button {
+      padding: 12px;
+    }
+
+    &__img_text {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    &__link_box {
+      font-size: 22px;
+      margin-bottom: 32px;
+    }
+  }
+
+}
+
+
+@media(max-width: 768px) {
+  .hero {
+    &__title {
+      font-size: 46px;
+    }
+
+    &__row {
+      display: flex;
+      margin: 0 25px;
+      flex-wrap: wrap;
+    }
+
+    &__col-4 {
+      width: 100%;
+    }
+
+    &__block {
+      margin-bottom: 20px;
+      padding: 35px 40px;
+      height: 270px;
+    }
+
+    &__marketing-text {
+      font-size: 23px;
+      //width: 300px;
+    }
+  }
+
+  .why-choose {
+    &__col-3 {
+      width: 100%;
+    }
+
+    &__block {
+      width: 300px;
+      height: 290px;
+    }
+
+    &__img {
+      width: 80px;
+      margin-bottom: 30px;
+    }
+
+    &__number {
+      margin-bottom: 30px;
+    }
+
+    &__box {
+      margin-bottom: 30px;
+    }
+  }
+  .practice {
+    &__col-3 {
+      width: 100%;
+    }
+
+    &__block-heith {
+      margin: 0 auto 50px;
+    }
+
+
+  }
+  .features {
+    &__col-5 {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+  .footer {
+    padding: 25px 0;
+    align-items: center;
+
+    &__text {
+      font-size: 15px;
+    }
+  }
+  .consalting {
+    &__title {
+      width: 384px;
+      height: 50px;
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+
+    &__button {
+      font-size: 12px;
+    }
+  }
+  .business {
+    &__col-6 {
+      padding: 0;
+    }
+
+    &__overview-video {
+      margin: 0 auto;
+    }
+
+    &__title-video {
+      font-size: 35px;
+      margin: 0 auto;
+    }
+
+    &__text-video {
+      margin: 0 auto;
+
+    }
+
+    &__img-text {
+      margin: 0 auto;
+    }
+
+    &__text-box {
+      margin: 0 auto;
+    }
+  }
+  .hooli {
+    &__button-input {
+      flex: none;
+    }
+
+    &__block {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__img {
+      width: 16.666667%;
+    }
+
+    &__colum {
+      width: 100%
+    }
+  }
+}
+
+
+@media (max-width: 567px) {
+  .header {
+    &__content {
+      padding: 10px;
+    }
+  }
+  .hero {
+    &__content {
+      padding: 184px 20px;
+    }
+
+    &__title {
+      width: 290px;
+      text-align: center;
+      margin: 0 auto 30px;
+      line-height: 55px;
+
+
+    }
+
+    &__text {
+      width: 290px;
+      text-align: center;
+      margin: 0 auto 40px;
+    }
+
+    &__button_orange {
+      margin-top: 30px;
+      margin-left: 55px;
+      margin-bottom: 10px;
+    }
+
+    .hero__button_blue {
+      margin-left: 55px;
+
+    }
+
+
+    &__block {
+      margin: 0 auto 20px;
+      padding: 35px 7px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: static;
+    }
+
+    &__col-4 {
+      padding: 0;
+    }
+
+    &__block-blue {
+      padding: 35px 10px;
+      margin-bottom: -16px;
+    }
+
+    &__marketing-text {
+      font-size: 23px;
+    }
+
+    &__with-text {
+      font-size: 21px;
+    }
+
+
+    &__text {
+      margin: 0 auto;
+    }
+
+  }
+  .why-choose {
+    &__title {
+      width: 260px;
+      text-align: center;
+    }
+
+    &__text {
+      width: 225px;
+    }
+  }
+
+  .practice {
+    &__block-heith {
+      margin-bottom: 60px;
+    }
+
+    &__block {
+      margin-bottom: 60px;
+    }
+
+    &__title {
+      width: 260px;
+      text-align: center;
+    }
+
+    &__text {
+      width: 225px;
+    }
+
+    &__title_text {
+      width: 150px;
+      font-size: 16px;
+    }
+  }
+  .business {
+    &__title {
+      width: 318px;
+      font-size: 34px;
+    }
+
+    &__text {
+      width: 225px;
+      font-size: 14px;
+      margin: 0 auto 30px;
+    }
+
+    &__text-video {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    &__img-text {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    &__video {
+     width: 100%;
+      margin: 0 auto;
+
+    }
+
+    &__overview-video {
+      margin: 0 auto 50px;
+    }
+
+  }
+  .hooli {
+    &__title {
+      font-size: 23px;
+    }
+
+    &__img {
+      width: 300px;
+      margin: 0 auto 40px;
+      display: grid;
+
+    }
+
+    &__colum {
+      width: 100%;
+      margin-bottom: 75px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .touch {
+    &__text {
+      width: 310px;
+    }
+
+    &__img_text {
+      font-size: 17px;
+    }
+  }
+  .footer {
+    padding: 13px;
+  }
+  .consalting {
+    padding: 10px;
+
+    &__block {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__title {
+      width: 300px;
+    }
+
+    &__text {
+      margin-bottom: 20px;
+    }
+  }
+  .footer {
+    &__social {
+      display: grid;
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-top: -15px;
+    }
+
+    &__img {
+      margin-top: 20px;
+    }
+  }
+  .mobile-menu {
+    height: 50vh;
+    width: 50vw;
+  }
+}
